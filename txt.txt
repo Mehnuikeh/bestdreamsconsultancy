@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>BEST BRAIN CONSULTANCY</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <!-- Logo Image -->
+        <img src="images/bestbrain_white1.JPG" alt="Best Brain Logo">
+
+        <!-- Navigation Menu -->
+        <div class="navigation">
+            <ul>
+                <!-- Navigation Items -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Apply Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Customizing Home page -->
+
+    <section id="home">
+        <h2>Welcome to Best Dreams Consultancy!</h2>
+        <p>Write a little insight about Best Dreams here</p>
+        <div class="btn">
+            <a class="gold" href="#LearnMore">Learn More</a>
+        </div>
+    </section>
+
+    <!--Features at bottom of page-->
+    <section id="features">
+        <h1>BEST DREAMS CONSULTANCY</h1>
+        <p>write a little note here</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-people-group"></i>
+                <h3>MEET OUR TEAM MEMBERS</h3>
+                <p>write a little note here</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-building-columns"></i>
+                <h3>OUR PARTNERS UNIVERSITY</h3>
+                <p>write a little note here</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-square-check"></i>
+                <h3>OUR SERVICES</h3>
+                <p>write a little note here</p>
+            </div>
+        </div>
+    </section>
+
+<!--Courses on bottom of page -->
+
+<section id="course">
+    <h1>OUR POPULAR COURSES</h1>
+    <p>write a little note here</p>
+    <div class="course-box">
+
+        <div class="course-card">
+            <img src="images/IT.jpg" alt="">
+            <div class="course-content">
+                <h6>INFORMATION TECHNOLOGY</h6>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="course-card">
+            <img src="images/microbiology.jpg" alt="">
+            <div class="course-content">
+                <h6>MICRO BIOLOGY</h6>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="course-card">
+            <img src="images/businessadministration.jpg" alt="">
+            <div class="course-content">
+                <h6>BUSINESS ADMINISTRATION</h6>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="course-card">
+            <img src="images/cybersc.jpeg" alt="">
+            <div class="course-content">
+                <h6>CYBER SECURITY</h6>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="course-card">
+            <img src="images/civileng.jpeg" alt="">
+            <div class="course-content">
+                <h6>CIVIL ENGINEERING</h6>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+        
+        </div>
+
+
+    </div>
+</section>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,570 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Font Family */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Heading Styles (h1) */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+}
+
+/* Global Span Styles */
+span {
+    font-size: 0.9rem;
+    color: #757373;
+}
+
+/* Global Heading 6 Styles (h6) */
+h6 {
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+/* Styling the Navigation Header Bar */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 6vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Styling the Logo Image */
+nav a img {
+    width: 100px;
+    height: 100;
+    border-radius: 50%;
+}
+
+nav .navigation{
+    display: flex;
+}
+
+/* editing menu icon*/
+#menu-icon {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#menu-close {
+    display: none;
+}
+
+/* Styling the Navigation List */
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Removing Points from Navigation Buttons and adding left margin */
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+/* Styling the anchor (link) elements in the navigation menu */
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+/* Navigation link hover effect */
+nav .navigation ul li a:hover {
+    color: gold;
+}
+
+/* Home page styling */
+/*#home {
+    background-image: linear-gradient(rgba(128, 128, 128, 1), rgba(255, 255, 255, 0)),
+        url(images/customize/backcover.jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2 {
+    color: bisque;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p {
+    width: 50%;
+    color: white;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#home.btn {
+    margin-top: 10px;
+}
+
+#home a {
+    text-decoration: none;
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 5px 35px;
+    border-radius: 20px;
+
+}
+
+#home a.gold {
+    color: white;
+    background: rgb(142, 103, 5);
+}
+
+#home a.gold:hover {
+    color: rgb(21, 21, 100);
+    background: wheat;
+    transition: 0.4 ease;
+}*/
+
+/* Editing botton at almost end of page */
+
+#features {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .fea-box {
+    background: #F9F9FF;
+    text-align: start;
+}
+
+#features .fea-box a{
+    text-decoration: none;
+}
+
+#features .fea-box i {
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+}
+
+#features .fea-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(6, 6, 74);
+    padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+}
+
+/*courses on bottom of page */
+
+#course {
+    padding: 8vm 8vm 0 8vm;
+    text-align: center;
+}
+#course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+
+}
+
+#course .course-card {
+    text-align: center;
+    background: rgb(245, 237, 222);
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#course .course-card h6{
+    color: navy;
+}
+
+#course .course-card img {
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+#course .course-course .course-content {
+    padding: 15px 15px 0 15px;
+}
+
+#course .course-card .course-content i {
+    color: goldenrod;
+    font-size: 1rem;
+}
+/*Experts editing*/
+#experts{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#experts .experts-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#experts .experts-box .profiles{
+    background: rgb(245, 237, 222);
+    padding: 30px 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#experts .profiles img{
+   width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    border: 3px solid goldenrod;
+}
+
+#experts .profiles a {
+    text-decoration: none;
+}
+
+#experts .profiles h6{
+    color: navy;
+}
+
+.profile-link{
+    margin-top: 10px;
+}
+
+.profile-link i {
+    padding: 10px 13px;
+    border: 1px solid goldenrod;
+    transition: 0.3s ease;
+}
+
+.profile-link i:hover {
+   background: goldenrod;
+   color:bisque;
+   border: 1px solid goldenrod;
+   cursor: pointer;
+}
+
+/*Footer section*/
+
+footer {
+    padding: 8vw;
+    background-color: rgb(142, 103, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-column{
+    padding-bottom: 40px;
+    /*border-bottom: 50px;*/
+
+}
+
+footer .footer-column h3{
+    color: wheat;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer .footer-column li{
+    list-style: circle;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer .footer-column li:hover {
+   color:bisque;
+   cursor: pointer;
+}
+
+footer .footer-column span{
+    color:beige;
+}
+
+
+footer .footer-column a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Copyright section*/
+
+/*#copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+#copyright .copy-right{
+    background-color: rgb(142, 103, 5);
+    margin-bottom: 20px;
+}
+
+#copyright .copy-right p{
+    font-weight: 600;
+    color: wheat;
+}
+.profile-link a {
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust the value to control the space */
+}
+
+/* Editing menu bar icon in tablet and phone mode */
+
+@media (max-width: 769px) {
+    nav{
+        padding: 15px 20px;
+    }
+    nav img{
+        width: 130px;
+    }
+    #menu-icon {
+        display: initial;
+    }
+    
+    #menu-close {
+        display: initial;
+        font-size: 1.6rem;
+        color: bisque;
+        padding: 30px 0 20px 20px;
+    }
+    nav .navigation ul {
+        position: absolute;
+        top: 0;
+        right: -220px;
+        width: 220px;
+        height: 100vh;
+        background: rgba(17, 29, 104, 0.45);
+        backdrop-filter: blur(4.5px);
+        border: 1px solid rgb(142, 103, 5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.4s ease;
+    }
+    nav .navigation ul.active{
+        right: 0;
+    }
+    nav .navigation ul li {
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+    nav .navigation ul li a{
+        color: wheat;
+    }
+    #home{
+        padding-top: 0px;
+    }
+    #home p{
+        width: 90%;
+    }
+
+}
+
+
+
+/*Editing about page*/
+#about-home {
+    background-image: linear-gradient(rgba(128, 128, 128, 1), rgba(255, 255, 255, 0)),
+        url(images/aboutpage/about4.webp);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+#about-home h2 {
+    color: bisque;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+/*Image at the our goals part*/
+
+
+#about-content{
+    display: flex;
+    align-items: center;
+    padding: 8vw 8vw 2vw 8vw;
+}
+
+#about-content .about-img{
+    width: 100%;
+}
+
+#about-content .about-text{
+    width: 40%;
+    padding: 60px;
+}
+
+#about-content h1{
+    color: goldenrod;
+}
+#about-content h2{
+    color: goldenrod;
+}
+#about-content h4{
+    color: goldenrod;
+}
+#about-content strong{
+    color: goldenrod;
+}
+
+
+
+/*#slider-image {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+}
+
+.slider img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}*/
+
+/*.image-slider {
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+    position: relative;
+    padding-top: 45px;
+    text-align: center;
+  }
+  
+  .slides {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  input[name="slide"] {
+    display: none;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /*.arrow-left {
+    left: 20px;
+  }
+  
+  .arrow-right {
+    right: 20px;
+  }*/
+  
+  /*#slide2:checked ~ .slides {
+    animation: slide 12s infinite step-end;
+  }
+  
+  #slide3:checked ~ .slides {
+    animation: slide 12s infinite step-end;
+    animation-delay: -6s;
+  }
+  
+  @keyframes slide {
+    0% { margin-left: 0; }
+    33.33% { margin-left: -100%; }
+    66.66% { margin-left: -200%; }
+    100% { margin-left: -100%; }
+  }
+  
+  @keyframes slide-end {
+    0% { margin-left: -300%; }
+    33.33% { margin-left: -300%; }
+    66.66% { margin-left: -100%; }
+    100% { margin-left: 0; }
+  }*/
+
